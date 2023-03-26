@@ -1,1 +1,108 @@
 
+<html>
+  <head>
+    <title>Krispy Kreme</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://logos-world.net/wp-content/uploads/2022/07/Krispy-Kreme-Logo.png"
+        alt="Logo"
+        height="200px"
+      />
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./products.html">Products</a></li>
+          <li><a href="#contact" class="anchor">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          Krispy Kreme is an American doughnut and coffee chain that is known
+          for its signature glazed doughnuts. The company was founded in 1937
+          and has since grown to become a global brand with over 1,000 stores in
+          more than 30 countries. In addition to its classic glazed doughnuts,
+          Krispy Kreme offers a variety of other doughnut flavors and coffee
+          drinks.
+        </p>
+        <img
+          src="https://media.newyorker.com/photos/59af169e8ef815459f6e814d/2:1/w_2532,h_1266,c_limit/970217_r30539.jpg"
+          alt="Our shop"
+        />
+      </section>
+
+      <section id="products">
+        <h2>Products</h2>
+        <ul>
+          <li>
+            <img
+              src="https://krispykreme.ca/wp-content/uploads/2013/10/Chocolate-Cake-Doughnut-Overhead-0419.png"
+              alt="Chocolate donut"
+              height="200px"
+            />
+            <h3>Glazed Chocolate Cake</h3>
+            <p>
+              The ultimate in chocolate! A chocolate cake doughnut topped with
+              our Original Glaze to create the perfect chocolatey taste
+            </p>
+          </li>
+          <li>
+            <img
+              src="https://krispykreme.ca/wp-content/uploads/2013/10/OriginalGlazed_OG_Overhead_2017.png"
+              alt="Sprinkles donut"
+              height="200px"
+            />
+            <h3>Original Glazed</h3>
+            <p>
+              When people talk about a Krispy Kreme doughnut, they’re usually
+              referring to our signature treat: the Original Glazed
+            </p>
+          </li>
+          <li>
+            <img
+              src="https://krispykreme.ca/wp-content/uploads/2013/10/Choc-Iced-Ring-Doughnut-Overhead-0195-1-300x300.png"
+              alt="Glazed donut"
+              height="200px"
+            />
+            <h3>Chocolate Glazed</h3>
+            <p>
+              For those who can’t resist chocolate we take our Original Glazed
+              ring doughnut one step further by hand dipping the top in smooth
+              chocolate icing
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <input type="submit" value="Send" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Krispy Kreme. For Educational Purposes only.</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
